@@ -6,98 +6,134 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css"/>
+    <link rel="shortcut icon" type="image/png" href="assets/Logo.png"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css"
+    />
     <link rel="stylesheet" href="style.css" />
 
-    <title>WaterWise - Home</title>
+    <title>WaterWiseUK - Home</title>
   </head>
   <body>
     <header>
       <div class="topNavContainer">
-        <nav>
-          <ul id="topNav">
-            <li class="active">
-              <a href="index.html" class="nav-link">Home</a>
-            </li>
-            <li><a href="about.html" class="nav-link">About</a></li>
-            <li><a href="projects.html" class="nav-link">Projects</a></li>
-            <li><a href="services.html" class="nav-link">Services</a></li>
-            <li><a href="contact.html" class="nav-link">Contact</a></li>
-          </ul>
-        </nav>
         <div>
-          <h1>We Repair what 'UR' Husband Fixed</h1>
+            <nav>
+                <ul id="topNav">
+                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li><a href="#contactForm" class="nav-link">About</a></li>
+                    <li><a href="#about" class="nav-link">Services</a></li>
+                    <li><a href="#gallery" class="nav-link">Projects</a></li>
+                    <li><a href=".gallery/index.html" class="nav-link">Gallery</a></li>
+                    <li><a href=".Contact/index.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-      </div>
     </header>
 
+
     <div id="content">
-      <div id="intro">
-        <h2>FOR ALL YOUR PLUMBING REQUIREMENTS</h2>
-        <p>
-          A dynamic plumbing company that has been serving the industry for the
-          past 15 years. We deliver a bespoke service that covers all aspects of
-          plumbing, and are always willing to go the extra mile to deliver an
-          excellent service for our clients
-        </p>
-      </div>
-      <!-- /#intro -->
-
-      <div id="contactForm">
-        <form id="studentSurvey" action="http://www.google.com" method="post">
-          <h2>Request A Quote</h2>
-          <fieldset>
-            <legend>Contact Info</legend>
-            <div class="row">
-              <div>
-                <input
-                  type="text"
-                  name="fullName"
-                  placeholder="Name"
-                  required
-                />
-              </div>
+        <div class="topRow">
+            <div id="intro" class="introColumn" style="position: relative; top: 60px;">
+                <div style="width: 350px; text-align: left;">
+                    <h2>We're Here For All Your Plumbing Requirements</h2>
+                </div>
+                <div class="underline"></div>
+                <p>
+                A dynamic plumbing company that has been serving the industry for the
+                past 15 years. We deliver a bespoke service that covers all aspects of
+                plumbing, and are always willing to go the extra mile to deliver an
+                excellent service for our clients
+                </p>
             </div>
-            <br />
-            <div class="row">
-              <div>
-                <input
-                  type="email"
-                  name="email"
-                  placeholder="E-mail"
-                  required
-                />
-              </div>
+            <!-- /#intro -->
+
+            <div id="contactForm" class="formColumn">
+                <form id="Request" action="http://www.google.com" method="post">
+                <h3 style="text-align: center;">Request A Quote</h3>
+                <br/>
+                <fieldset>
+                    <legend>Contact Info</legend>
+                    <div class="row">
+                    <div>
+                        <input
+                        type="text"
+                        name="fullName"
+                        placeholder="Name"
+                        required
+                        />
+                    </div>
+                    </div>
+                    <br />
+                    <div class="row">
+                    <div>
+                        <input
+                        type="email"
+                        name="email"
+                        placeholder="E-mail"
+                        required
+                        />
+                    </div>
+                    </div>
+                    <br />
+                    <div class="row">
+                    <div>
+                        <input type="tel" name="number" placeholder="Number" required />
+                    </div>
+                    </div>
+                </fieldset>
+
+                <br />
+
+                <fieldset>
+                    <legend>Comments</legend>
+                    <textarea
+                    name="comments"
+                    cols="30"
+                    rows="10"
+                    placeholder="Description Of Problem"
+                    ></textarea>
+                </fieldset>
+
+                <br/>
+
+                <p><input type="submit" value="Submit" /></p>
+                </form>
             </div>
-            <br />
-            <div class="row">
-              <div>
-                <input type="tel" name="number" placeholder="Number" required />
-              </div>
+            <!-- /#contactForm -->
+        </div>
+
+        <div class="aboutContainer">
+        <div id="about">
+            <div  class="aboutRow">
+            <div class="aboutColumn aboutLeft">
+                
             </div>
-          </fieldset>
-
-          <br />
-
-          <fieldset>
-            <legend>Comments</legend>
-            <textarea
-              name="comments"
-              cols="30"
-              rows="10"
-              placeholder="Description Of Problem"
-            ></textarea>
-          </fieldset>
-
-          <p><input type="submit" value="Submit" /></p>
-        </form>
-      </div>
-      <!-- /#contactForm -->
+            <div class="aboutColumn aboutRight">
+                <h2>Provided Services</h2>
+                <div class="underline"></div>
+                <p style="width: 322px;">
+                    We cover all aspects of plumbing and central heating along with all
+                    your small jobs, from burst water pipes to complete new builds, we are
+                    there to assist. All of our projects are completed to professional
+                    standard to ensure the highest quality of workmanship
+                </p>
+            </div>
+        </div>
+          </div>
+        </div>
+          <!-- /#about -->
 
       <div id="services" class="grid-container">
         <div id="Plumbing" class="serviceCard">
-          <img src="" alt="" />
+          <img
+            src="https://image.flaticon.com/icons/svg/1833/1833175.svg"
+            alt="Tap"
+            style="width: 80px; height: 80px;"
+          />
           <h3>Plumbing</h3>
+          <div class="underlineGray"></div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo,
             ex quo non perspiciatis officiis doloribus unde mollitia sapiente
@@ -106,8 +142,13 @@
           </p>
         </div>
         <div id="Renovation" class="serviceCard">
-          <img src="" alt="" />
+          <img
+            src="https://image.flaticon.com/icons/svg/1833/1833327.svg"
+            alt="Wrench"
+            style="width: 80px; height: 80px;"
+          />
           <h3>Renovation</h3>
+          <div class="underlineGray"></div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
             numquam fugiat eaque blanditiis dolorem! Obcaecati dolorum nobis
@@ -116,8 +157,13 @@
           </p>
         </div>
         <div id="BathroomFitouts" class="serviceCard">
-          <img src="" alt="" />
-          <h3>Bathroom Ftouts</h3>
+          <img
+            src="https://image.flaticon.com/icons/svg/1833/1833332.svg"
+            alt="Bathroom"
+            style="width: 80px; height: 80px;"
+          />
+          <h3>Bathroom Fitouts</h3>
+          <div class="underlineGray"></div>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             Reprehenderit, consequuntur, officiis quae atque architecto quasi
@@ -126,8 +172,13 @@
           </p>
         </div>
         <div id="BlockedDrains" class="serviceCard">
-          <img src="" alt="" />
+          <img
+            src="https://image.flaticon.com/icons/svg/1833/1833152.svg"
+            alt="Plunger"
+            style="width: 80px; height: 80px;"
+          />
           <h3>Blocked Drains</h3>
+          <div class="underlineGray"></div>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores
             autem reprehenderit necessitatibus! Itaque perspiciatis, hic ipsum
@@ -136,8 +187,13 @@
           </p>
         </div>
         <div id="Installations" class="serviceCard">
-          <img src="" alt="" />
+          <img
+            src="https://image.flaticon.com/icons/svg/1833/1833178.svg"
+            alt="Radiator"
+            style="width: 80px; height: 80px;"
+          />
           <h3>Installations</h3>
+          <div class="underlineGray"></div>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta
             earum ut ipsum quis, vitae quia odio quos iusto sequi quidem et vero
@@ -145,8 +201,13 @@
           </p>
         </div>
         <div id="NewBuilds" class="serviceCard">
-          <img src="" alt="" />
+          <img
+            src="https://image.flaticon.com/icons/svg/1833/1833148.svg"
+            alt="House"
+            style="width: 80px; height: 80px;"
+          />
           <h3>New Builds</h3>
+          <div class="underlineGray"></div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
             alias, ab saepe recusandae quis reprehenderit odio consequatur
@@ -157,176 +218,212 @@
       </div>
       <!-- /#services -->
 
-      <div id="about">
-          <h2>Services We Provide</h2>
-          <img src="" alt="Logo">
-          <p>We cover all aspects of plumbing and central heating along with all your small jobs, from burst water pipes to complete new builds, we are there to assist. All of our projects are completed to professional standard to ensure the highest quality of workmanship</p>
-      </div>
-      <!-- /#about -->
+      <div id="gallery" style="margin-top: 8%;">
 
-      <div id="testimonials">
-        <!-- Flickity HTML init -->
-        <div
-          class="gallery js-flickity"
-          data-flickity-options='{ "wrapAround": true }'
-        >
-          <div class="gallery-cell">hello</div>
-          <div class="gallery-cell"></div>
-          <div class="gallery-cell"></div>
-          <div class="gallery-cell"></div>
-          <div class="gallery-cell"></div>
+        <h2 style="text-align:center">Previous Project Slideshow</h2>
+        <div class="underline" style="margin: auto; margin-top: 10px; margin-bottom: 10px;"></div>
+  
+        <div class="container">
+          <div class="mySlides">
+            <div class="numbertext">1 / 6</div>
+            <img src="assets/BathroomToilet.JPG" alt="Logo" style="width:100%" />
+          </div>
+  
+          <div class="mySlides">
+            <div class="numbertext">2 / 6</div>
+            <img src="assets/BathroomBath.jpg" alt="Logo" style="width:100%" />
+          </div>
+  
+          <div class="mySlides">
+            <div class="numbertext">3 / 6</div>
+            <img src="assets/HeatingProgress.JPG" alt="Logo" style="width:100%" />
+          </div>
+  
+          <div class="mySlides">
+            <div class="numbertext">4 / 6</div>
+            <img src="assets/HeatingModule.JPG" alt="Logo" style="width:100%" />
+          </div>
+  
+          <div class="mySlides">
+            <div class="numbertext">5 / 6</div>
+            <img src="assets/KitchenProgress.jpg" alt="Logo" style="width:100%" />
+          </div>
+  
+          <div class="mySlides">
+            <div class="numbertext">6 / 6</div>
+            <img src="assets/KitchenFinal.JPG" alt="Logo" style="width:100%" />
+          </div>
+  
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+  
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+  
+          <div class="row">
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="assets/BathroomToilet.JPG"
+                style="width:100%"
+                onclick="currentSlide(1)"
+                alt="Bathroom Installation 1"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="assets/BathroomBath.jpg"
+                style="width:100%"
+                onclick="currentSlide(2)"
+                alt="Bathroom Installation 2"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="assets/HeatingProgress.JPG"
+                style="width:100%"
+                onclick="currentSlide(3)"
+                alt="Central Heating 1"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="assets/HeatingModule.JPG"
+                style="width:100%"
+                onclick="currentSlide(4)"
+                alt="Central Heating 2"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="assets/KitchenProgress.jpg"
+                style="width:100%"
+                onclick="currentSlide(5)"
+                alt="Kitchen Installation 1"
+              />
+            </div>
+            <div class="column">
+              <img
+                class="demo cursor"
+                src="assets/KitchenFinal.JPG"
+                style="width:100%"
+                onclick="currentSlide(6)"
+                alt="Kitchen Installation 2"
+              />
+            </div>
+          </div>
         </div>
+  
+        <script>
+          var slideIndex = 1;
+          showSlides(slideIndex);
+  
+          function plusSlides(n) {
+            showSlides((slideIndex += n));
+          }
+  
+          function currentSlide(n) {
+            showSlides((slideIndex = n));
+          }
+  
+          function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            var captionText = document.getElementById("caption");
+            if (n > slides.length) {
+              slideIndex = 1;
+            }
+            if (n < 1) {
+              slideIndex = slides.length;
+            }
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            captionText.innerHTML = dots[slideIndex - 1].alt;
+          }
+        </script>
+      
+        <!-- /#gallery -->
+      </div>
+      
+      <div id="testimonials">
+          <div class="tstLeft">
+        <div style="width: 300px; text-align: left;">
+            <h2>Testimonials</h2>
+        </div>
+        <div class="underline"></div>
+        <p>All of the work we provide is of the highest standard, garunteeing both satisfaction and elegance when completed. However, don't just take our word for it and takw a look at our clients personal thoughts and opinions on our services with their testimonials.</p>
+    </div>
+        <div class="tstRight">
+        <div id="slide" class="slider">
+            <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav"/>
+            <input type="radio" name="slider" title="slide2" class="slider__nav"/>
+            <input type="radio" name="slider" title="slide3" class="slider__nav"/>
+            <input type="radio" name="slider" title="slide4" class="slider__nav"/>
+            <div class="slider__inner">
+              <div class="slider__contents"><i class="slider__image fa fa-codepen"></i>
+                <h2 class="slider__caption">Number 1</h2>
+                <p class="slider__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!</p>
+              </div>
+              <div class="slider__contents"><i class="slider__image fa fa-newspaper-o"></i>
+                <h2 class="slider__caption">Number 2</h2>
+                <p class="slider__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!</p>
+              </div>
+              <div class="slider__contents"><i class="slider__image fa fa-television"></i>
+                <h2 class="slider__caption">Number 3</h2>
+                <p class="slider__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!</p>
+              </div>
+              <div class="slider__contents"><i class="slider__image fa fa-diamond"></i>
+                <h2 class="slider__caption">Number 4</h2>
+                <p class="slider__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!</p>
+              </div>
+            </div>
+        </div>
+          </div>
       </div>
       <!-- /#testimonials -->
+      
 
-      <div id="gallery"></div>
+      <div class="ftr">
 
-      <h2 style="text-align:center">Slideshow Gallery</h2>
+      <footer class="footer-distributed">
 
-      <div class="container">
-        <div class="mySlides">
-          <div class="numbertext">1 / 6</div>
-          <img src="assets/Logo.png" alt="Logo" style="width:100%"/>
+        <div class="footer-right">
+
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-github"></i></a>
+
         </div>
 
-        <div class="mySlides">
-          <div class="numbertext">2 / 6</div>
-          <img src="assets/Logo.png" alt="Logo" style="width:100%"/>
+        <div class="footer-left">
+
+            <p class="footer-links">
+                <a class="link-1" href="#">Home</a>
+                
+                <a href="#">Privacy Policy</a>
+
+                <a href="#">Terms Of Service</a>
+
+                <a href="#">Contact</a>
+            </p>
+
+            <p>Ethan Moffatt &copy; 2020</p>
         </div>
 
-        <div class="mySlides">
-          <div class="numbertext">3 / 6</div>
-          <img src="assets/Logo.png" alt="Logo" style="width:100%"/>
-        </div>
-
-        <div class="mySlides">
-          <div class="numbertext">4 / 6</div>
-          <img src="assets/Logo.png" alt="Logo" style="width:100%"/>
-        </div>
-
-        <div class="mySlides">
-          <div class="numbertext">5 / 6</div>
-          <img src="assets/Logo.png" alt="Logo" style="width:100%"/>
-        </div>
-
-        <div class="mySlides">
-          <div class="numbertext">6 / 6</div>
-          <img src="assets/Logo.png" alt="Logo" style="width:100%"/>
-        </div>
-
-        <a class="prev" onclick="plusSlides(-1)">❮</a>
-        <a class="next" onclick="plusSlides(1)">❯</a>
-
-        <div class="caption-container">
-          <p id="caption"></p>
-        </div>
-
-        <div class="row">
-          <div class="column">
-            <img
-              class="demo cursor"
-              src="assets/Logo.png"
-              style="width:100%"
-              onclick="currentSlide(1)"
-              alt="The Woods"
-            />
-          </div>
-          <div class="column">
-            <img
-              class="demo cursor"
-              src="assets/Logo.png"
-              style="width:100%"
-              onclick="currentSlide(2)"
-              alt="Cinque Terre"
-            />
-          </div>
-          <div class="column">
-            <img
-              class="demo cursor"
-              src="assets/Logo.png"
-              style="width:100%"
-              onclick="currentSlide(3)"
-              alt="Mountains and fjords"
-            />
-          </div>
-          <div class="column">
-            <img
-              class="demo cursor"
-              src="assets/Logo.png"
-              style="width:100%"
-              onclick="currentSlide(4)"
-              alt="Northern Lights"
-            />
-          </div>
-          <div class="column">
-            <img
-              class="demo cursor"
-              src="assets/Logo.png"
-              style="width:100%"
-              onclick="currentSlide(5)"
-              alt="Nature and sunrise"
-            />
-          </div>
-          <div class="column">
-            <img
-              class="demo cursor"
-              src="assets/Logo.png"
-              style="width:100%"
-              onclick="currentSlide(6)"
-              alt="Snowy Mountains"
-            />
-          </div>
-        </div>
-      </div>
-
-      <script>
-        var slideIndex = 1;
-        showSlides(slideIndex);
-
-        function plusSlides(n) {
-          showSlides((slideIndex += n));
-        }
-
-        function currentSlide(n) {
-          showSlides((slideIndex = n));
-        }
-
-        function showSlides(n) {
-          var i;
-          var slides = document.getElementsByClassName("mySlides");
-          var dots = document.getElementsByClassName("demo");
-          var captionText = document.getElementById("caption");
-          if (n > slides.length) {
-            slideIndex = 1;
-          }
-          if (n < 1) {
-            slideIndex = slides.length;
-          }
-          for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-          }
-          for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-          }
-          slides[slideIndex - 1].style.display = "block";
-          dots[slideIndex - 1].className += " active";
-          captionText.innerHTML = dots[slideIndex - 1].alt;
-        }
-      </script>
-      <!-- /#gallery -->
-    </div>
-    <!-- /#Content -->
-
-    <footer>
-      <div class="bottomNavContainer">
-        <ul id="bottomNav">
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Testimonials</a></li>
-          <li><a href="#">Terms of Service</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Contact Us</a></li>
-        </ul>
-      </div>
     </footer>
+</div>
   </body>
 </html>
