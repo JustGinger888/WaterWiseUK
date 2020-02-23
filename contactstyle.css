@@ -231,3 +231,32 @@ legend {
     line-height: 1.8;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  #contactForm {
+    width: 96%;
+  }
+  
+  h2 {
+    font-weight: lighter;
+    font-size: 25px;
+  }
+
+  h3 {
+    font-weight: 200;
+    font-size: 18px;
+  }
+
+  p {
+    font-weight: 10;
+    font-size: 12px;
+  }
+  
+  ul#topNav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 6px;
+    font-size: 12px;
+  }
+}

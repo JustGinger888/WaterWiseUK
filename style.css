@@ -651,8 +651,13 @@ body {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  body {
-
+  
+  ul#topNav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 6px;
+    font-size: 12px;
   }
 
   .introColumn {
@@ -684,17 +689,17 @@ body {
 
   h2 {
     font-weight: lighter;
-    font-size: 30px;
+    font-size: 25px;
   }
 
   h3 {
     font-weight: 200;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   p {
     font-weight: 10;
-    font-size: 17px;
+    font-size: 12px;
   }
 
   .aboutContainer {
@@ -712,7 +717,7 @@ body {
   .aboutRight {
     width: 100%;
     padding: 2%;
-    height: 280px;
+    height: 130px;
   }
 
   .topRow {
@@ -759,7 +764,7 @@ body {
   }
   
   #testimonials {
-    height: 280px;
+    height: 20px;
     margin: 8% 0% 8% 0%;
   }
 }
@@ -767,9 +772,10 @@ body {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   body {
-    background-color: yellow;
     margin: 0;
   }
+
+  
 
   .introColumn {
     width: 96%;
@@ -878,8 +884,13 @@ body {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  body {
-    background-color: red;
+
+  ul#topNav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
   }
 
   #contactForm {
@@ -1006,8 +1017,20 @@ body {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  body {
-    background-color: purple;
+
+  h2 {
+    font-weight: lighter;
+    font-size: 32px;
+  }
+  
+  h3 {
+    font-weight: 200;
+    font-size: 22px;
+  }
+  
+  p {
+    font-weight: 10;
+    font-size: 14px;
   }
 
   .aboutLeft {
@@ -1044,8 +1067,20 @@ body {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1224px) {
-  body {
-    background-color: orchid;
+
+  h2 {
+    font-weight: lighter;
+    font-size: 32px;
+  }
+  
+  h3 {
+    font-weight: 200;
+    font-size: 22px;
+  }
+  
+  p {
+    font-weight: 10;
+    font-size: 17px;
   }
 
   .aboutLeft {
