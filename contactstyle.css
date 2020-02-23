@@ -207,6 +207,16 @@ legend {
 
 .footer-distributed p.footer-links a:hover{text-decoration:underline;}
 
+
+.underline {
+  background-color: #00a6e4;
+  height: 6px;
+  width: 50px;
+  margin: 10px 0px;
+}
+
+
+
 /* Media Queries */
 
 @media (max-width: 600px) {
