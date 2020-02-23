@@ -318,7 +318,6 @@ img {
 .introColumn {
   float: left;
   width: 38%;
-  padding: 10px;
 }
 
 .formColumn {
@@ -337,7 +336,7 @@ img {
 
 #intro {
   margin: 2% 2%;
-  padding: 4%;
+  padding: 2.5%;
   text-align: left;
 }
 
