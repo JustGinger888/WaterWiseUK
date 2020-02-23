@@ -54,7 +54,7 @@ p {
   background: url(assets/HomeTop.png);
   background-color: #ffffff;
   background-size: 100% 100%;
-  height: 740px;
+  height: 600px;
   margin: 0px;
   z-index: 0;
 }
@@ -103,6 +103,7 @@ ul#bottomNav li {
   padding: 20px;
   background-color: #ffffff;
   transition: 0.3s;
+  margin-bottom: 8%;
 }
 
 #contactForm:hover {
@@ -324,8 +325,6 @@ img {
   float: left;
   width: 50%;
   padding: 10px;
-  position: relative;
-  bottom: 60px;
   z-index: 1;
 }
 

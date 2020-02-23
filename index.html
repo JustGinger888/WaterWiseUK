@@ -6,7 +6,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
 
-    <link rel="shortcut icon" type="image/png" href="assets/Logo.png"/>
+    <link rel="shortcut icon" type="image/png" href="assets/Logo.png" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css"
@@ -18,112 +18,118 @@
   <body>
     <header>
       <div class="topNavContainer">
-        <div>
-            <nav>
-                <ul id="topNav">
-                    <li><a href="index.html" class="nav-link active">Home</a></li>
-                    <li><a href="#contactForm" class="nav-link">About</a></li>
-                    <li><a href="#about" class="nav-link">Services</a></li>
-                    <li><a href="#gallery" class="nav-link">Projects</a></li>
-                    <li><a href=".gallery/index.html" class="nav-link">Gallery</a></li>
-                    <li><a href="contact.html" class="nav-link">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav>
+          <ul id="topNav">
+            <li><a href="index.html" class="nav-link active">Home</a></li>
+            <li><a href="#contactForm" class="nav-link">About</a></li>
+            <li><a href="#about" class="nav-link">Services</a></li>
+            <li><a href="#gallery" class="nav-link">Projects</a></li>
+            <li><a href=".gallery/index.html" class="nav-link">Gallery</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
-
     <div id="content">
-        <div class="topRow">
-            <div id="intro" class="introColumn" style="position: relative; top: 60px;">
-                <div style="width: 350px; text-align: left;">
-                    <h2>We're Here For All Your Plumbing Requirements</h2>
+      <div class="topRow">
+        <div
+          id="intro"
+          class="introColumn"
+          style="position: relative; top: 60px;"
+        >
+          <div style="width: 350px; text-align: left;">
+            <h2>We're Here For All Your Plumbing Requirements</h2>
+          </div>
+          <div class="underline"></div>
+          <p>
+            A dynamic plumbing company that has been serving the industry for
+            the past 15 years. We deliver a bespoke service that covers all
+            aspects of plumbing, and are always willing to go the extra mile to
+            deliver an excellent service for our clients
+          </p>
+        </div>
+        <!-- /#intro -->
+
+        <div id="contactForm" class="formColumn">
+          <form id="Request" action="http://www.google.com" method="post">
+            <h3 style="text-align: center;">Request A Quote</h3>
+            <br />
+            <fieldset>
+              <legend>Contact Info</legend>
+              <div class="row">
+                <div>
+                  <input
+                    type="text"
+                    name="fullName"
+                    placeholder="Name"
+                    required
+                  />
                 </div>
-                <div class="underline"></div>
-                <p>
-                A dynamic plumbing company that has been serving the industry for the
-                past 15 years. We deliver a bespoke service that covers all aspects of
-                plumbing, and are always willing to go the extra mile to deliver an
-                excellent service for our clients
-                </p>
-            </div>
-            <!-- /#intro -->
+              </div>
+              <br />
+              <div class="row">
+                <div>
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="E-mail"
+                    required
+                  />
+                </div>
+              </div>
+              <br />
+              <div class="row">
+                <div>
+                  <input
+                    type="tel"
+                    name="number"
+                    placeholder="Number"
+                    required
+                  />
+                </div>
+              </div>
+            </fieldset>
 
-            <div id="contactForm" class="formColumn">
-                <form id="Request" action="http://www.google.com" method="post">
-                <h3 style="text-align: center;">Request A Quote</h3>
-                <br/>
-                <fieldset>
-                    <legend>Contact Info</legend>
-                    <div class="row">
-                    <div>
-                        <input
-                        type="text"
-                        name="fullName"
-                        placeholder="Name"
-                        required
-                        />
-                    </div>
-                    </div>
-                    <br />
-                    <div class="row">
-                    <div>
-                        <input
-                        type="email"
-                        name="email"
-                        placeholder="E-mail"
-                        required
-                        />
-                    </div>
-                    </div>
-                    <br />
-                    <div class="row">
-                    <div>
-                        <input type="tel" name="number" placeholder="Number" required />
-                    </div>
-                    </div>
-                </fieldset>
+            <br />
 
-                <br />
+            <fieldset>
+              <legend>Comments</legend>
+              <textarea
+                name="comments"
+                cols="30"
+                rows="10"
+                placeholder="Description Of Problem"
+              ></textarea>
+            </fieldset>
 
-                <fieldset>
-                    <legend>Comments</legend>
-                    <textarea
-                    name="comments"
-                    cols="30"
-                    rows="10"
-                    placeholder="Description Of Problem"
-                    ></textarea>
-                </fieldset>
+            <br />
 
-                <br/>
-
-                <p><input type="submit" value="Submit" /></p>
-                </form>
-            </div>
-            <!-- /#contactForm -->
+            <p><input type="submit" value="Submit" /></p>
+          </form>
         </div>
+        <!-- /#contactForm -->
+      </div>
 
-        <div class="aboutContainer">
+      <div class="aboutContainer">
         <div id="about">
-            <div  class="aboutRow">
-            <div class="aboutColumn aboutLeft">
-                
-            </div>
+          <div class="aboutRow">
+            <div class="aboutColumn aboutLeft"></div>
             <div class="aboutColumn aboutRight">
-                <h2>Provided Services</h2>
-                <div class="underline"></div>
-                <p style="width: 322px;">
-                    We cover all aspects of plumbing and central heating along with all
-                    your small jobs, from burst water pipes to complete new builds, we are
-                    there to assist. All of our projects are completed to professional
-                    standard to ensure the highest quality of workmanship
-                </p>
+              <h2>Provided Services</h2>
+              <div class="underline"></div>
+              <p style="width: 322px;">
+                We cover all aspects of plumbing and central heating along with
+                all your small jobs, from burst water pipes to complete new
+                builds, we are there to assist. All of our projects are
+                completed to professional standard to ensure the highest quality
+                of workmanship
+              </p>
             </div>
-        </div>
           </div>
         </div>
-          <!-- /#about -->
+      </div>
+      <!-- /#about -->
 
       <div id="services" class="grid-container">
         <div id="Plumbing" class="serviceCard">
@@ -135,10 +141,12 @@
           <h3>Plumbing</h3>
           <div class="underlineGray"></div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo,
-            ex quo non perspiciatis officiis doloribus unde mollitia sapiente
-            possimus eveniet dignissimos temporibus, nam accusamus eum cum,
-            delectus commodi repellendus ad.
+            We off services such as installation of all pipework, boilers,
+            fires, cookers, vented and unvented cylinders, water heaters and
+            much more. Whether you require installation of a complete new
+            central heating system, bathrooms or repair of a burst pipe,
+            waterwisegroupuk are available to ensure you receive the service
+            that you require quickly and professionally.
           </p>
         </div>
         <div id="Renovation" class="serviceCard">
@@ -150,10 +158,11 @@
           <h3>Renovation</h3>
           <div class="underlineGray"></div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-            numquam fugiat eaque blanditiis dolorem! Obcaecati dolorum nobis
-            quisquam officiis veritatis. Et veritatis facilis numquam nihil
-            libero! Sint et delectus repellat.
+            Whether youre looking to update or extend your current living spaces,
+            I can provide the experience needed in property renovations. With the 
+            expertise to assist you with every aspect of any renovation work, 
+            from the inception of your idea, through to the design, planning, 
+            construction, finishing and installation of any appliances.
           </p>
         </div>
         <div id="BathroomFitouts" class="serviceCard">
@@ -165,10 +174,10 @@
           <h3>Bathroom Fitouts</h3>
           <div class="underlineGray"></div>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Reprehenderit, consequuntur, officiis quae atque architecto quasi
-            excepturi distinctio iste unde tenetur sapiente ad corporis dolores
-            aut necessitatibus nostrum. Praesentium, quidem magni.
+            Whatever you bathroom needs are from thinking to dreaming of your
+            dream bathroom we can design and make your dream come ture. Carrying
+            out full bathroom renovations you name it im sure ill be able to do
+            it the sky is the limit.
           </p>
         </div>
         <div id="BlockedDrains" class="serviceCard">
@@ -180,10 +189,12 @@
           <h3>Blocked Drains</h3>
           <div class="underlineGray"></div>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores
-            autem reprehenderit necessitatibus! Itaque perspiciatis, hic ipsum
-            dignissimos expedita neque modi. Mollitia iusto excepturi aliquid
-            porro quasi nobis fuga nam nemo.
+            Whatever causes a blockage, we can fix it. Whether the solution is a
+            manual unblock to clear a toilet, or drain water out of a bath,
+            shower or basin, kitchen sink we can do it. If the problem is more
+            complicated and linked to outside pipe work, our expert engineers
+            can tackle that too. They carry all the equipment they need. So
+            whatever the job, there's no delay.
           </p>
         </div>
         <div id="Installations" class="serviceCard">
@@ -195,9 +206,13 @@
           <h3>Installations</h3>
           <div class="underlineGray"></div>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta
-            earum ut ipsum quis, vitae quia odio quos iusto sequi quidem et vero
-            molestiae dolor unde rem! Est eos dicta voluptatem.
+            Whether you require a full central heating system for a new or
+            refurbished house, an extension to an existing central heating
+            system (i.e for a house extension or loft conversion) or a single
+            new radiator or thermostat, our engineers have the experience .We
+            are qualified to install, service and repair all types of gas boiler
+            – essential to ensure the safety, reliability and efficiency of all
+            central heating systems.
           </p>
         </div>
         <div id="NewBuilds" class="serviceCard">
@@ -209,58 +224,73 @@
           <h3>New Builds</h3>
           <div class="underlineGray"></div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-            alias, ab saepe recusandae quis reprehenderit odio consequatur
-            fugiat. Eaque reprehenderit cum blanditiis adipisci non repellendus
-            consequuntur delectus quae distinctio rerum?
+            Our teams of highly-skilled tradies have the expertise and experience 
+            necessary to install plumbing and heating systems to all types of new build 
+            schemes. We aim to meet your projects requirements efficiently and to the 
+            highest of standards, whilst delivering maximum value in the safest way possible
+            to ensure satisfaction.
           </p>
         </div>
       </div>
       <!-- /#services -->
 
       <div id="gallery" style="margin-top: 8%;">
-
         <h2 style="text-align:center">Previous Project Slideshow</h2>
-        <div class="underline" style="margin: auto; margin-top: 10px; margin-bottom: 10px;"></div>
-  
+        <div
+          class="underline"
+          style="margin: auto; margin-top: 10px; margin-bottom: 10px;"
+        ></div>
+
         <div class="container">
           <div class="mySlides">
             <div class="numbertext">1 / 6</div>
-            <img src="assets/BathroomToilet.JPG" alt="Logo" style="width:100%" />
+            <img
+              src="assets/BathroomToilet.JPG"
+              alt="Logo"
+              style="width:100%"
+            />
           </div>
-  
+
           <div class="mySlides">
             <div class="numbertext">2 / 6</div>
             <img src="assets/BathroomBath.jpg" alt="Logo" style="width:100%" />
           </div>
-  
+
           <div class="mySlides">
             <div class="numbertext">3 / 6</div>
-            <img src="assets/HeatingProgress.JPG" alt="Logo" style="width:100%" />
+            <img
+              src="assets/HeatingProgress.JPG"
+              alt="Logo"
+              style="width:100%"
+            />
           </div>
-  
+
           <div class="mySlides">
             <div class="numbertext">4 / 6</div>
             <img src="assets/HeatingModule.JPG" alt="Logo" style="width:100%" />
           </div>
-  
+
           <div class="mySlides">
             <div class="numbertext">5 / 6</div>
-            <img src="assets/KitchenProgress.jpg" alt="Logo" style="width:100%" />
+            <img
+              src="assets/KitchenProgress.jpg"
+              alt="Logo"
+              style="width:100%"
+            />
           </div>
-  
+
           <div class="mySlides">
             <div class="numbertext">6 / 6</div>
             <img src="assets/KitchenFinal.JPG" alt="Logo" style="width:100%" />
           </div>
-  
+
           <a class="prev" onclick="plusSlides(-1)">❮</a>
           <a class="next" onclick="plusSlides(1)">❯</a>
-  
+
           <div class="caption-container">
             <p id="caption"></p>
           </div>
-  
+
           <div class="row">
             <div class="column">
               <img
@@ -318,19 +348,19 @@
             </div>
           </div>
         </div>
-  
+
         <script>
           var slideIndex = 1;
           showSlides(slideIndex);
-  
+
           function plusSlides(n) {
             showSlides((slideIndex += n));
           }
-  
+
           function currentSlide(n) {
             showSlides((slideIndex = n));
           }
-  
+
           function showSlides(n) {
             var i;
             var slides = document.getElementsByClassName("mySlides");
@@ -353,77 +383,113 @@
             captionText.innerHTML = dots[slideIndex - 1].alt;
           }
         </script>
-      
+
         <!-- /#gallery -->
       </div>
-      
+
       <div id="testimonials">
-          <div class="tstLeft">
-        <div style="width: 300px; text-align: left;">
+        <div class="tstLeft">
+          <div style="width: 300px; text-align: left;">
             <h2>Testimonials</h2>
+          </div>
+          <div class="underline"></div>
+          <p>
+            All of the work we provide is of the highest standard, garunteeing
+            both satisfaction and elegance when completed. However, don't just
+            take our word for it and takw a look at our clients personal
+            thoughts and opinions on our services with their testimonials.
+          </p>
         </div>
-        <div class="underline"></div>
-        <p>All of the work we provide is of the highest standard, garunteeing both satisfaction and elegance when completed. However, don't just take our word for it and takw a look at our clients personal thoughts and opinions on our services with their testimonials.</p>
-    </div>
         <div class="tstRight">
-        <div id="slide" class="slider">
-            <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav"/>
-            <input type="radio" name="slider" title="slide2" class="slider__nav"/>
-            <input type="radio" name="slider" title="slide3" class="slider__nav"/>
-            <input type="radio" name="slider" title="slide4" class="slider__nav"/>
+          <div id="slide" class="slider">
+            <input
+              type="radio"
+              name="slider"
+              title="slide1"
+              checked="checked"
+              class="slider__nav"
+            />
+            <input
+              type="radio"
+              name="slider"
+              title="slide2"
+              class="slider__nav"
+            />
+            <input
+              type="radio"
+              name="slider"
+              title="slide3"
+              class="slider__nav"
+            />
+            <input
+              type="radio"
+              name="slider"
+              title="slide4"
+              class="slider__nav"
+            />
             <div class="slider__inner">
-              <div class="slider__contents"><i class="slider__image fa fa-codepen"></i>
+              <div class="slider__contents">
+                <i class="slider__image fa fa-codepen"></i>
                 <h2 class="slider__caption">Number 1</h2>
-                <p class="slider__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!</p>
+                <p class="slider__txt">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
+                  cupiditate omnis possimus illo quos, corporis minima!
+                </p>
               </div>
-              <div class="slider__contents"><i class="slider__image fa fa-newspaper-o"></i>
+              <div class="slider__contents">
+                <i class="slider__image fa fa-newspaper-o"></i>
                 <h2 class="slider__caption">Number 2</h2>
-                <p class="slider__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!</p>
+                <p class="slider__txt">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
+                  cupiditate omnis possimus illo quos, corporis minima!
+                </p>
               </div>
-              <div class="slider__contents"><i class="slider__image fa fa-television"></i>
+              <div class="slider__contents">
+                <i class="slider__image fa fa-television"></i>
                 <h2 class="slider__caption">Number 3</h2>
-                <p class="slider__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!</p>
+                <p class="slider__txt">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
+                  cupiditate omnis possimus illo quos, corporis minima!
+                </p>
               </div>
-              <div class="slider__contents"><i class="slider__image fa fa-diamond"></i>
+              <div class="slider__contents">
+                <i class="slider__image fa fa-diamond"></i>
                 <h2 class="slider__caption">Number 4</h2>
-                <p class="slider__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!</p>
+                <p class="slider__txt">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
+                  cupiditate omnis possimus illo quos, corporis minima!
+                </p>
               </div>
             </div>
-        </div>
           </div>
+        </div>
       </div>
       <!-- /#testimonials -->
-      
+    </div>
 
-      <div class="ftr">
-
+    <div class="ftr">
       <footer class="footer-distributed">
-
         <div class="footer-right">
-
-            <a href="#"><i class="fa fa-facebook"></i></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-            <a href="#"><i class="fa fa-linkedin"></i></a>
-            <a href="#"><i class="fa fa-github"></i></a>
-
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-github"></i></a>
         </div>
 
         <div class="footer-left">
+          <p class="footer-links">
+            <a class="link-1" href="#">Home</a>
 
-            <p class="footer-links">
-                <a class="link-1" href="#">Home</a>
-                
-                <a href="#">Privacy Policy</a>
+            <a href="#">Privacy Policy</a>
 
-                <a href="#">Terms Of Service</a>
+            <a href="#">Terms Of Service</a>
 
-                <a href="#">Contact</a>
-            </p>
+            <a href="#">Contact</a>
+          </p>
 
-            <p>Ethan Moffatt &copy; 2020</p>
+          <p>Ethan Moffatt &copy; 2020</p>
         </div>
-
-    </footer>
-</div>
+      </footer>
+    </div>
   </body>
 </html>
