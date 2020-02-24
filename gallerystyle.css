@@ -9,7 +9,13 @@
     margin: 0px;
   }
 
+  body {
+    background-color: #f7f7f7;
+  }
+
   h2 {
+    padding-top: 2%;
+    text-align: center;
     font-weight: lighter;
     font-size: 32px;
 }
@@ -89,6 +95,20 @@ ul#topNav {
     width: 100%;
   }
   
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin: auto;
+    margin-top: 4%;
+    
+    margin-top: 4%;
+    width: 96%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
   /* Responsive layout - makes a two column-layout instead of four columns */
   @media screen and (max-width: 800px) {
     .column {
@@ -195,7 +215,9 @@ ul#topNav {
   background-color: #00a6e4;
   height: 6px;
   width: 50px;
-  margin: 10px 0px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 
